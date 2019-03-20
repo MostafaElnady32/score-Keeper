@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team A "
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:layout_margin="30sp"
+
+                />
+            <TextView
+                android:id="@+id/txtTeamA"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 point"
+                android:textSize="30sp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:onClick="add6pointForTeamA"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+6 Points A"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:layout_marginTop="50dp"
+                android:background="#039BE5"
+                />  <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+3 Points A"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:padding="10dp"
+           android:layout_marginTop="20dp"
+            android:background="#039BE5"
+            android:layout_marginLeft="15dp"
+            android:onClick="add3pointForTeamA"
+
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2 Points A"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#039BE5"
+                android:layout_marginLeft="15dp"
+                android:onClick="add2pointForTeamA"
+
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1 Points A"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#039BE5"
+                android:layout_marginLeft="15dp"
+                android:onClick="add1pointForTeamA"
+
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team B "
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:layout_margin="30sp"
+
+                />
+            <TextView
+                android:id="@+id/txtTeamB"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 point"
+                android:textSize="30sp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:onClick="add6pointForTeamB"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+6 Points B"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:layout_marginTop="50dp"
+                android:background="#EC407A"
+                />  <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+3 Points B"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#EC407A"
+            android:layout_marginLeft="15dp"
+            android:onClick="add3pointForTeamB"
+
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2 Points B"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#EC407A"
+                android:layout_marginLeft="15dp"
+                android:onClick="add2pointForTeamB"
+
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1 Points B"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#EC407A"
+                android:layout_marginLeft="15dp"
+                android:onClick="add1pointForTeamB"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:background="#1B5E20"
+        android:onClick="reset"/>
+
+
+
+
+
+
+</RelativeLayout>
